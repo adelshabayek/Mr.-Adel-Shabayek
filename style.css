@@ -10604,7 +10604,7 @@ body {
 
 a {
   text-decoration: none !important;
-  color: #a1b8cf;
+  color: #124271;
 }
 a:hover {
   color: rgba(0, 123, 255, 0.7019607843);
@@ -12927,9 +12927,6 @@ img.lazy:not([src]) {
   top: 2px;
   font-size: 0.875rem;
   margin: 0;
-}
-.top-links-item:hover {
-  background-color: #eee;
 }
 .top-links-sub-menu, .top-links-section {
   position: absolute;

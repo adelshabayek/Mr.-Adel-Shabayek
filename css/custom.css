@@ -26,18 +26,41 @@
         font-family: Alexandria,sans-serif !important;
 
 }
+.droplang {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+.droplang2 {
+    font-size: 13px !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+
+}
 
 .just-start {
     justify-items: start !important;
 }
 
 
-/* 
-#logo {
-    position: relative;
-    display: flex
-;
-    align-items: center;
-    -ms-flex-align: center;
-    margin-left: auto;
-    max-height: 100%; } */
+
+/* @media  */
+
+@media (max-width: 991px) {
+    .media {
+            justify-items: left;
+    }
+    .media-rtl {
+            justify-items: left;
+    }
+}
+
+
+@media (max-width: 438px) {
+			.slider-element {
+			background: #F9F9F9 url(img/me.png) no-repeat 30% -3px / auto 75% !important;
+			}
+		}
