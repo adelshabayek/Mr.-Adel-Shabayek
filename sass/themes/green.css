@@ -12928,7 +12928,6 @@ img.lazy:not([src]) {
   line-height: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #666666;
 }
 .top-links-item > a > i {
   vertical-align: top;
@@ -12938,6 +12937,7 @@ img.lazy:not([src]) {
 }
 .top-links-item > a > i:first-child {
   margin-right: 3px;
+  display: none;
 }
 .top-links-item.full-icon > a > i {
   top: 2px;
@@ -12945,7 +12945,7 @@ img.lazy:not([src]) {
   margin: 0;
 }
 .top-links-item:hover {
-  background-color: #EEE;
+  background-color: #eee;
 }
 .top-links-sub-menu, .top-links-section {
   position: absolute;
@@ -13068,7 +13068,7 @@ img.lazy:not([src]) {
   color: #666;
 }
 #top-social a:hover {
-  color: #FFF !important;
+  color: #fff !important;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -13084,7 +13084,7 @@ img.lazy:not([src]) {
   position: relative;
 }
 #top-login .form-control:focus {
-  border-color: #CCC;
+  border-color: #ccc;
 }
 #top-login .input-group#top-login-username {
   margin-bottom: -1px;

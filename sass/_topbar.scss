@@ -1,4 +1,3 @@
-
 /* ----------------------------------------------------------------
 
 	topbar.scss
@@ -9,14 +8,12 @@
 	Top Bar
 -----------------------------------------------------------------*/
 
-
 #top-bar {
 	position: relative;
 	border-bottom: $topbar-border-size solid $topbar-border-color;
 	font-size: 0.815rem;
 	background-color: $topbar-bg;
 }
-
 
 /* Top Links
 ---------------------------------*/
@@ -26,11 +23,11 @@
 	-ms-flex: 0 0 auto;
 	flex: 0 0 auto;
 	-ms-flex-positive: 0;
-    flex-grow: 0;
-    border-bottom: $topbar-border-size solid $topbar-border-color;
-    @include media-breakpoint-up(md){
-    	border-bottom: 0;
-    }
+	flex-grow: 0;
+	border-bottom: $topbar-border-size solid $topbar-border-color;
+	@include media-breakpoint-up(md) {
+		border-bottom: 0;
+	}
 	&-container {
 		display: -ms-flexbox;
 		display: flex;
@@ -49,7 +46,9 @@
 		border-left: $topbar-border-size solid $topbar-border-color;
 
 		&:first-child,
-		.top-links-sub-menu & { border-left: 0 !important; }
+		.top-links-sub-menu & {
+			border-left: 0 !important;
+		}
 
 		> a {
 			display: block;
@@ -58,11 +57,16 @@
 			line-height: $topbar-line-font-l-height;
 			font-weight: $topbar-font-weight;
 			text-transform: $topbar-font-transform;
-			color: $topbar-font-color;
 
-			> i { vertical-align: top;
-				&.icon-angle-down { margin: 0 0 0 5px !important; }
-				&:first-child { margin-right: 3px; }
+			> i {
+				vertical-align: top;
+				&.icon-angle-down {
+					margin: 0 0 0 5px !important;
+				}
+				&:first-child {
+					margin-right: 3px;
+					display: none;
+				}
 			}
 		}
 
@@ -72,8 +76,9 @@
 			margin: 0;
 		}
 
-		&:hover { background-color: #EEE; }
-
+		&:hover {
+			background-color: #eee;
+		}
 	}
 
 	&-sub-menu,
@@ -91,10 +96,12 @@
 		left: -1px;
 		width: 140px;
 		margin-top: 10px;
-		border: $topbar-border-size  solid $topbar-border-color;
+		border: $topbar-border-size solid $topbar-border-color;
 		border-top: 1px solid $theme-color;
 		box-shadow: 0px 13px 42px 11px rgba(0, 0, 0, 0.05);
-		transition: opacity .25s ease, margin .2s ease;
+		transition:
+			opacity 0.25s ease,
+			margin 0.2s ease;
 	}
 
 	&:not(.on-click) .top-links-item:hover > .top-links-sub-menu,
@@ -122,7 +129,9 @@
 			&:not(:first-child) {
 				border-top: $topbar-border-size solid darken($topbar-bg, 3.92);
 			}
-			&:hover { background-color: darken($topbar-bg, 2.35); }
+			&:hover {
+				background-color: darken($topbar-bg, 2.35);
+			}
 			> a {
 				padding-top: 9px;
 				padding-bottom: 9px;
@@ -163,7 +172,6 @@
 	}
 }
 
-
 /* Top Social
 -----------------------------------------------------------------*/
 
@@ -176,7 +184,9 @@
 		position: relative;
 		list-style: none;
 		border-left: $topbar-border-size solid $topbar-border-color;
-		&:first-child { border-left: 0 !important; }
+		&:first-child {
+			border-left: 0 !important;
+		}
 		.ts-icon,
 		.ts-text {
 			display: block;
@@ -195,14 +205,14 @@
 		.ts-text {
 			max-width: 0;
 			white-space: nowrap;
-			-webkit-transition: all .2s ease;
-			transition: all .2s ease;
+			-webkit-transition: all 0.2s ease;
+			transition: all 0.2s ease;
 		}
 		a:hover .ts-text {
 			max-width: 200px;
 			padding-right: 12px;
-			-webkit-transition: all .4s ease;
-			transition: all .4s ease;
+			-webkit-transition: all 0.4s ease;
+			transition: all 0.4s ease;
 		}
 	}
 	a {
@@ -213,26 +223,31 @@
 		font-weight: bold;
 		color: #666;
 		&:hover {
-			color: #FFF !important;
-			text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+			color: #fff !important;
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 		}
 	}
 }
-
 
 /* Top Login
 -----------------------------------------------------------------*/
 
 #top-login {
 	margin-bottom: 0;
-	.checkbox { margin-bottom: 10px; }
+	.checkbox {
+		margin-bottom: 10px;
+	}
 
 	.form-control {
 		position: relative;
-			&:focus { border-color: #CCC; }
+		&:focus {
+			border-color: #ccc;
+		}
 	}
 
-	.input-group#top-login-username { margin-bottom: -1px; }
+	.input-group#top-login-username {
+		margin-bottom: -1px;
+	}
 
 	#top-login-username {
 		input,
@@ -242,7 +257,9 @@
 		}
 	}
 
-	.input-group#top-login-password { margin-bottom: 10px; }
+	.input-group#top-login-password {
+		margin-bottom: 10px;
+	}
 
 	#top-login-password input,
 	#top-login-password .input-group-addon {

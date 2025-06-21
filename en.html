@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="ar" data-uw-w-loader class="skrollr skrollr-desktop">
+<html dir="ltr" lang="en-US">
 	<head>
 
 		<link rel="icon" href="img/me.png">
@@ -34,13 +34,11 @@ From the basics to fluency, we guide you with practical steps and clear results.
 		<!-- Stylesheets
 	============================================= -->
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link
-			href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap"
-			rel="stylesheet">
+			href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap"
+			rel="stylesheet" type="text/css" />
 
-		<link rel="stylesheet" href="css/bootstrap-rtl.css" type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 		<link rel="stylesheet" href="css/dark.css" type="text/css" />
 
 		<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
@@ -52,11 +50,12 @@ From the basics to fluency, we guide you with practical steps and clear results.
 		<link rel="stylesheet" href="css/onepage.css">
 
 		<link rel="stylesheet" href="css/custom.css" type="text/css" />
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<title>MR. Adel Shabayek</title>
 
 		<style>
-			       
 
 		@-webkit-keyframes fadeInUp {
 		  from {
@@ -73,17 +72,14 @@ From the basics to fluency, we guide you with practical steps and clear results.
 			transform: translate3d(0, 70px, 0);
 		  }
 		}
-		
-	
-		* body{
-			 font-family: Alexandria,sans-serif !important;
-		}
-					
+
+		.font-secondary { font-family: 'Merriweather', serif !important; }
+
 	</style>
 
 	</head>
 
-	<body class="stretched rtl">
+	<body class="stretched">
 
 		<!-- Document Wrapper
 	============================================= -->
@@ -100,9 +96,7 @@ From the basics to fluency, we guide you with practical steps and clear results.
 
 							<!-- Logo
 						============================================= -->
-
-							<div id="logo"
-								style=" margin-left:auto !important; margin-right: 0 !important;">
+							<div id="logo">
 								<a href="index.html" class="standard-logo"
 									data-dark-logo="one-page/images/canvasone-dark.png"><img
 										src="img/white-blue 2.png" alt="Canvas Logo" width="220"></a>
@@ -120,47 +114,45 @@ From the basics to fluency, we guide you with practical steps and clear results.
 
 							<!-- Primary Navigation
 						============================================= -->
-							<nav class="primary-menu ">
+							<nav class="primary-menu">
 
-								<ul class="one-page-menu menu-container justify-content-end"
-									data-easing="easeInOutExpo"
+								<ul class="one-page-menu menu-container" data-easing="easeInOutExpo"
 									data-speed="1250" data-offset="65">
 									<li class="menu-item">
-										<a href="#" class="menu-link fa font-weight-bold"
-											data-href="#wrapper"><div>الـرئـيـسـيـة</div></a>
+										<a href="#" class="menu-link font-weight-bold"
+											data-href="#wrapper"><div class="ls2">Home</div></a>
 									</li>
 
 									<li class="menu-item">
-										<a href="#" class="menu-link   fa font-weight-bold"
-											data-href="#section-about"><div>أحــجــز الان</div></a>
+										<a href="#" class="menu-link font-weight-bold"
+											data-href="#section-about"><div class="ls2">Book</div></a>
 									</li>
 									<li class="menu-item">
-										<a href="#" class="menu-link  fa font-weight-bold"
-											data-href="#section-works"><div>تـواصـل مـعـنـا</div></a>
+										<a href="#" class="menu-link font-weight-bold"
+											data-href="#section-works"><div class="ls2">Contact</div></a>
 									</li>
 
-									
+									<div class="top-links">
+										<ul class="top-links-container">
+											<li class="top-links-item"><a href="#" class="pl-0 ls2 "  style="font-size: 15px !important;"><i
+														class="icon-line-chevron-down "></i> Language</a>
+												<ul class="top-links-sub-menu">
+													<li class="top-links-item"> <a href="#"
+															class="dropdown-item disabled"
+															tabindex="-1" aria-disabled="true">
+															<img src="img/eng.png" alt="Lang">
+
+															English</a></li>
+													<li class="top-links-item"> <a href="index.html"
+															class="dropdown-item"><img
+																src="img/ar.png" alt="Lang"> Arabic</a></li>
+
+												</ul>
+											</li>
+										</ul>
+									</div>
 
 								</ul>
-								<div class="top-links clearfix">
-									<ul class="top-links-container ">
-										<li class="top-links-item "><a href="#" class=" fa"><i
-                                            class="icon-line-chevron-down "></i>  اللغة </a>
-											<ul class="top-links-sub-menu just-start">
-												<li class="top-links-item "> <a href="#"
-														class="dropdown-item fa2 disabled"
-														tabindex="-1" aria-disabled="true">
-														<img src="img/ar.png" alt="Lang">
-
-														العربية</a></li>
-												<li class="top-links-item"> <a href="en.html"
-														class="dropdown-item fa2"><img
-															src="img/eng.png" alt="Lang"> الانجليزية</a></li>
-
-											</ul>
-										</li>
-									</ul>
-								</div>
 
 							</nav><!-- #primary-menu end -->
 
@@ -175,37 +167,32 @@ From the basics to fluency, we guide you with practical steps and clear results.
 			<div class="position-relative">
 
 				<section id="slider" class="slider-element include-header "
-					style="background:  url('img/me.png') no-repeat 10% -3px / auto 85%; padding: 100px 0 0; z-index: 4;">
+					style="background:  url('img/me.png') no-repeat 103% -3px / auto 85%; padding: 100px 0 0; z-index: 4;">
 
 					<div class="container position-relative clearfix" style="z-index: 1">
 
 						<div class="row mt-0 mt-md-5 clearfix">
-							<div class="col-lg-6 my-5 my-md-0 ">
+							<div class="col-lg-6 my-5 my-md-0">
 								<div class="heading-block border-bottom-0 bottommargin-sm">
-									<h5
-										class="text-uppercase text-right ls1 text-black-50 font-weight-light mb-2 fa"
-										data-animate="fadeInUp" data-delay="100">معلم لغة انجليزية</h5>
-
-									<h2 class="font-weight-bold text-right fap nott font-secondary"
+									<h5 class="text-uppercase ls4 text-black-50 font-weight-light mb-2"
+										data-animate="fadeInUp" data-delay="100">English Teacher</h5>
+									<h2 class="font-weight-bold nott font-secondary"
 										data-animate="fadeInUp"
 										data-delay="200"
-										style="font-size: 47px; line-height: 1.5; letter-spacing: 0px; color: #084678">رحلتك
-										نحو الطلاقة في اللغة الإنجليزية تبدأ من هنا!</h2>
+										style="font-size: 58px; line-height: 1.15; letter-spacing: -1px; color: #084678">Your
+										Journey to Fluent English Starts Here!</h2>
 								</div>
-								<p class="mb-5 lead text-right" data-animate="fadeInUp" data-delay="400"
-									style="line-height: 1.7;">
-									مرحبًا بك في منصتك الموثوقة لتعلّم الإنجليزية بمرونة واحتراف.
-									دروس مخصصة للأطفال والبالغين، تناسب جميع المستويات والأهداف.
-									نرافقك من الأساسيات حتى الطلاقة بخطوات عملية ونتائج واضحة.
-								</p>
-								<div class="button-rtl">
-									<a href="#" data-scrollto="#section-about" data-offset="70"
-										data-animate="fadeInUp" data-delay="600"
-										class="button m-0 button-circle button-large text-white position-relative"
-										style="background-color: #084678;">أحــجــز ألان <i
-											class="icon-line-arrow-left"></i>
-									</a>
-								</div>
+								<p class="mb-5 lead" data-animate="fadeInUp" data-delay="400"
+									style="line-height: 1.7;"> We offer customized lessons for children and
+									adults, suitable for all levels and goals.
+									From the basics to fluency, we guide you with practical steps and clear
+									results.</p>
+								<a href="#" data-scrollto="#section-about" data-offset="70"
+									data-animate="fadeInUp" data-delay="600"
+									class="button m-0 button-circle button-large text-white"
+									style="background-color: #084678;">Book Now <i
+										class="icon-line-arrow-right"></i>
+								</a>
 							</div>
 
 						</div>
@@ -267,7 +254,7 @@ From the basics to fluency, we guide you with practical steps and clear results.
 								</div>
 
 								<div>
-									حقوق النشر © 2025 جميع الحقوق محفوظه بواسطه Shabayek des.
+									Copyrights © 2025 All Rights Reserved by Shabayek Des.
 								</div>
 
 							</div>

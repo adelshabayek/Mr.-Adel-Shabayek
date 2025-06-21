@@ -1,0 +1,43 @@
+.button-rtl{
+    justify-self: start;
+}
+
+.primary-menu .menu-container .menu-link {
+    letter-spacing: 0 !important;
+
+}
+
+.f16 {
+    font-family: "Cairo", sans-serif !important;
+    font-size: 18px  !important;
+    font-weight: bold !important;
+}
+.fa {
+    font-family: Alexandria,sans-serif !important;
+    font-size: 16px  !important;
+    font-weight: bold !important;
+}
+.fa2 {
+    font-family: Alexandria,sans-serif !important;
+    font-size: 13px  !important;
+    font-weight: bold !important;
+}
+.fap {
+        font-family: Alexandria,sans-serif !important;
+
+}
+
+.just-start {
+    justify-items: start !important;
+}
+
+
+/* 
+#logo {
+    position: relative;
+    display: flex
+;
+    align-items: center;
+    -ms-flex-align: center;
+    margin-left: auto;
+    max-height: 100%; } */
